@@ -1,0 +1,4 @@
+/kzImage
+*.o
+*.tmp
+/.config

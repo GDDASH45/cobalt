@@ -1,0 +1,17 @@
+mainmenu "Cobalt Kernel Configuration"
+
+config ARCH
+    string "Target architecture"
+    default "i386"
+
+config DEBUG
+    bool "Enable kernel debugging"
+    default y
+
+config VGA_TEXT
+    bool "Enable VGA text output"
+    default y
+
+config SERIAL
+    bool "Enable serial console"
+    default n
